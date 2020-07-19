@@ -31,8 +31,8 @@ def luhn_algorithm(code):
 def main():
     test_list = ['1234 8765 2345 1234', '4561 2612 1234 5467', '4561 2612 1234 5464', '5536 0800 1149 6167',
                  '4276 5500 5423 1868', '1234 5678 9000 4321', '4242 4242 4242 4242', '4222 2222 2222 2223']
-    for i in test_list
-        luhn_algorithm(i
+    for i in test_list:
+        luhn_algorithm(i)
 
 
 if __name__ == "__main__":
