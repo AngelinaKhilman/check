@@ -1,3 +1,7 @@
+def luhn_algorithm(code):
+
+    """Luhn algorithm is a simple checksum formula used to validate a variety of identification numbers.
+
     1. From the rightmost digit and moving left, double the value of every second digit.
     If the result of this doubling operation is greater than 9, then add the digits of the result
     or, alternatively, the same final result can be found by subtracting 9 from that result.
